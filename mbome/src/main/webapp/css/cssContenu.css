@@ -1,0 +1,85 @@
+BODY
+{
+	background-color:#ccc;
+}
+
+#entete
+{
+	background:url("../images/imgEntete.png") repeat-x center top rgb(237, 237, 237);
+	height:80px;
+	color:blue;
+}
+#entete .logoEtLiens{
+	
+}
+#entete .logo{
+	width:300px;
+	height:100px;
+	margin: 12px 0px 0px 0px;
+	float: left;
+}
+#entete .liens{
+	width:900px;
+	height:50px;
+	margin: 28px 30px 0px 0px;
+	float: right;
+	text-align:right;
+	
+}
+#entete .liens ul li {
+	display: inline-block;
+	margin: 0px 10px 0px 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:20px;
+	
+}
+#entete .liens li a{
+	color: #fff;
+	text-shadow: -1px -1px blue;
+}
+#pied
+{
+	background:url("../images/imgEntete.png") repeat center top rgb(237, 237, 237);
+	height:120px;
+	color:White;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size:16px;
+}
+
+#menuprincipal{
+	float: left;
+	padding-top: 55px;
+	margin-left: -140px;
+}
+
+#menuprincipal li{
+	list-style: none;
+	margin:1px 0px 1px -40px;
+	background-color:#ccc;
+	width: 160px;
+	border-bottom:solid 1px blue;
+	border-top:solid 1px blue;
+	height: 50px;
+	box-shadow:1px 1px 15px rgb(102, 102, 102);
+	color: blue;
+}
+
+#menuprincipal .dd{
+	margin: 30px 0px 30px 0px;
+}
+
+#menuprincipal a{
+	color: #fff;
+	text-decoration:none;
+	font-size: 20px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	
+}
