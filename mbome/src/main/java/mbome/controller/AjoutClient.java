@@ -20,8 +20,8 @@ public  class AjoutClient implements Controller {
 		@RequestMapping("/enregistrer_client")
 		public ModelAndView handleRequest(HttpServletRequest request,
 				HttpServletResponse response) throws ServletException, IOException {
-				String mess="Bonjour  �  tous ";
+				String mess="Bonjour  à  tous ";
 					return new ModelAndView("enregistrer_client","Message",mess);
 		}
-
+ 
 }
